@@ -112,8 +112,8 @@ img::-moz-selection {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#mainNav .navbar-brand {
-  color: #fed136;
+#mainNav .navbar-brand {  
+  color: black;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
@@ -166,10 +166,8 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: white;
-  <!-- 여기를 바꿔야 바탕 이미지가 바뀜-->
-
-  background-image: url("../img/header-bg.jpg");
+  background-color: black;
+  background-image: url("../img/columbus.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -177,6 +175,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
 header.masthead .intro-text {
@@ -693,4 +692,17 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+img.busan {
+  width: 100px;
+  height: 100px;
+}
+img.me{
+   width: 100px;
+  height: 100px;
+}
+img.q{
+   width: 100px;
+  height: 100px;
 }
